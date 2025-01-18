@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website for BS4</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Sample Website</h1>
+        <p>This website is designed to practice web scraping using <strong>BeautifulSoup</strong>.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="section1" class="class1" some_identifier="custom_id">
+            <h2>Section 1: About BeautifulSoup</h2>
+            <p>BeautifulSoup is a Python library for extracting data from HTML and XML files. It is commonly used for web scraping.</p>
+            <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">Learn More</a>
+        </section>
+
+        <section id="section2">
+            <h2>Section 2: Sample Data</h2>
+            <p>Here is some sample data in table format:</p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Role</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Alice</td>
+                        <td>Developer</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Bob</td>
+                        <td>Designer</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Charlie</td>
+                        <td>Manager</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section custom_id="my_id">
+            <h2>Section 3: Images and Lists</h2>
+            <p>Here is an image for practice:</p>
+            <img src="https://via.placeholder.com/150" alt="Sample Image" />
+
+            <p>And here is a list of popular Python libraries:</p>
+            <ul>
+                <li>BeautifulSoup</li>
+                <li>Requests</li>
+                <li>Pandas</li>
+                <li>Selenium</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by <span class="author">Your Name</span>. &copy; 2025</p>
+    </footer>
+</body>
+</html>
